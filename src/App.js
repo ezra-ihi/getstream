@@ -23,7 +23,7 @@ const sort = { last_message_at: -1 };
 //const channels = chatClient.queryChannels(filters, sort);
 
 const App = () => (
-  <Chat client={chatClient} theme={'messaging light'}>
+  <Chat client={chatClient} theme={'messaging dark'}>
     <ChannelList
       filters={filters}
       sort={sort}
